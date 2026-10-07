@@ -141,9 +141,6 @@ def plot_bands():
     fig.savefig("images/01_graphene_bands.png", bbox_inches="tight")
     plt.show()
 ```
-
-<p align="center"><img src="images/01_graphene_bands.png" width="45%"></p>
-
 ### 7. Figure 2: Dirac cone near $K$
 Evaluates both bands on a grid of $\mathbf q$ around $K$. The surfaces meet at a point and are linear in $|\mathbf q|$, which gives massless Dirac fermions. Valence band in blue, conduction band in red.
 
@@ -180,8 +177,6 @@ def plot_dirac_cone():
     fig.savefig("images/02_dirac_cone.png", bbox_inches="tight", pad_inches=0.1)
     plt.show()
 ```
-
-<p align="center"><img src="images/02_dirac_cone.png" width="45%"></p>
 
 ### 8. Figure 3: Density of states
 Samples the true Brillouin-zone unit cell, $\mathbf k=u\mathbf b_1+v\mathbf b_2$ with $u,v\in[0,1)$, histograms all energies, and normalizes to 2 states per cell. The dashed red line is the analytic Dirac result.
@@ -225,8 +220,6 @@ def plot_dos(n=1200):
     fig.savefig("images/03_graphene_dos.png", bbox_inches="tight")
     plt.show()
 ```
-
-<p align="center"><img src="images/03_graphene_dos.png" width="45%"></p>
 
 ### 9. Main
 
