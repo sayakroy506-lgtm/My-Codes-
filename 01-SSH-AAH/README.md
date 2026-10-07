@@ -139,9 +139,6 @@ def plot_ssh_bands():
     fig.savefig("images/01_ssh_bands.png", bbox_inches="tight")
     plt.show()
 ```
-
-<p align="center"><img src="images/01_ssh_bands.png" width="45%"></p>
-
 ### 8. Figure 2: Spectrum and localization vs $\lambda$
 For each $\lambda$, diagonalize the open chain and plot all eigenvalues, coloured by IPR. Dark = extended, bright = localized.
 
@@ -176,9 +173,6 @@ def spectrum_and_ipr():
     fig.savefig("images/02_aah_spectrum_ipr.png", bbox_inches="tight")
     plt.show()
 ```
-
-<p align="center"><img src="images/02_aah_spectrum_ipr.png" width="45%"></p>
-
 ### 9. Figure 3: Wavefunction profiles
 Picks the eigenstate closest to $E=0$ at three modulation strengths and plots $|\psi_n|^2$ along the chain: edge-localized at small $\lambda$, then moving into the bulk-localized regime as $\lambda$ grows.
 
@@ -207,9 +201,6 @@ def plot_state_profiles():
     fig.savefig("images/03_state_profiles.png", bbox_inches="tight")
     plt.show()
 ```
-
-<p align="center"><img src="images/03_state_profiles.png" width="95%"></p>
-
 ### 10. Main
 Runs all three plots.
 
